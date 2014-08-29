@@ -1,7 +1,7 @@
 from git import *
 import colorama
 
-REPOS_LIST_FILE = 'repo.list'
+REPOS_LIST_FILE = 'repo.lst'
 REPOS = []
 
 
@@ -26,9 +26,7 @@ def show_repo_status(path, is_dirty):
 
 if __name__ == '__main__':
 	colorama.init()
-	load_repo_path()	
+	load_repo_path()
 	for path in REPOS:
 		is_dirty = is_repo_dirty(path)
 		show_repo_status(path, is_dirty)
-
-

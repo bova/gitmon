@@ -1,1 +1,1 @@
-"C:\Program Files\Python314\python.exe"  checkrepos.py
+c:\Python27\python.exe checkrepos.py
